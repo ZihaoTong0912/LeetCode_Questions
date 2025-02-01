@@ -4,6 +4,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+# 这道题和上一道题很像，唯一的区别就是要通过一个list来存储
+# 每一层。所以区别就是这里使用了for 循环来区分每一层
+# 的遍历。
 class Solution:
     def decorateRecord(self, root: Optional[TreeNode]) -> List[List[int]]:
         output = []

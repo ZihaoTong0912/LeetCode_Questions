@@ -10,6 +10,9 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+# 这题的思路是 先遍历两个list 以此来得出要计算的值 算出这个数
+# 之后通过一个双端列表来储存这个值 当双端列表不为空时，反复创建
+# 一个新的节点 以此来创建一个和的链表。
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         i = 0

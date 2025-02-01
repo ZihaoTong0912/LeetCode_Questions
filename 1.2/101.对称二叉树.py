@@ -11,6 +11,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# 这串代码检验一个二叉树是否对称 通过递归来以此判断二叉是否对称。
+
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         def fun(L, R):

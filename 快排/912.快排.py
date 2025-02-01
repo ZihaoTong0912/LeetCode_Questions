@@ -5,6 +5,7 @@
 #
 
 # @lc code=start
+# 归并排序
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         def merge_sort(nums, l, r):

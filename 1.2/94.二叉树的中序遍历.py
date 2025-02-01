@@ -11,6 +11,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# 这串代码是对二叉树的中序遍历 也就是遍历左-根-右
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         def recursionf(root, output_list = None):
