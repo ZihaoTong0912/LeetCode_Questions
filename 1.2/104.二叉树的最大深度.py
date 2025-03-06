@@ -16,7 +16,10 @@ class Solution:
         def depth(root):
             if not root:
                 return 0
-            return max(depth(root.left),depth(root.right)) + 1
+            else:
+                number_left = depth(root.left) + 1
+                number_right = depth(root.right) + 1
+                return max(number_left, number_right)
         return depth(root)
 # @lc code=end
 
